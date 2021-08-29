@@ -1,2 +1,3 @@
 # DataArt-Internship
-Repository is just for testing
+Hi,
+This is Ali and this repository is for fun.
