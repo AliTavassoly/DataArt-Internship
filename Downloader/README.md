@@ -1,9 +1,9 @@
 # Downloader
-Downlaoder is a python script for download using URL. The destination of the file and the chunk size could be set in this script.
+Downlaoder is a python script for downloading via URL. The destination of the file and the chunk size could be set in this script.
 Also it will set a proper name for downloaded file.
 The script behave properly in Linux based systems, but in windows, it would be better if you specify the file destination.
 
-## Restriction
+## Restrictions
 You have to run the script using python3+.
 
 ## Usage
