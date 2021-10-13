@@ -4,7 +4,7 @@ Also it will set a proper name for downloaded file.
 The script behave properly in Linux based systems, but in windows, it would be better if you specify the file destination.
 
 ## Restrictions
-You have to run the script using python3+.
+You have to run the script using python3.x
 
 ## Usage
 The usage is so simple. You just have to run the script, and pass the URL you want to download as a required argument.
