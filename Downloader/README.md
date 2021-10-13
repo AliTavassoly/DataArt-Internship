@@ -9,7 +9,8 @@ You have to run the script using python3+.
 ## Usage
 The usage is so simple. You just have to run the script, and pass the URL you want to download as a required argument.
 There also is an optional option that helps you with specifying the chunk size.
-Here is a terminal command:
+
+Here is an example:
 
 ```
 python3 downloader.py TheURL --chunk-size=1024
