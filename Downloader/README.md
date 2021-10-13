@@ -13,5 +13,5 @@ There also is an optional option that helps you with specifying the chunk size.
 Here is an example:
 
 ```
-python3 downloader.py TheURL --chunk-size=1024
+python3 downloader.py https://example.com/download.txt --chunk-size=1024
 ```
