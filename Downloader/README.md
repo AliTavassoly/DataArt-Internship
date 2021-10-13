@@ -12,5 +12,5 @@ There also is an optional option that helps you with specifying the chunk size.
 Here is a terminal command:
 
 ```
-python3 downloader.py TheURL
+python3 downloader.py TheURL --chunk-size=1024
 ```
