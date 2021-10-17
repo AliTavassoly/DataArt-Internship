@@ -1,7 +1,7 @@
 # Postgresql
 This is the postgresql homework.
 
-The whole homework is divided into 4 files.
+The whole homework is divided into four files.
 Here is a brief explanation of these files:
 
 - First of all you have to run "tables.pgsql" to create required tables.
