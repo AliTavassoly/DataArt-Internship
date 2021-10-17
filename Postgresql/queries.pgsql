@@ -20,7 +20,7 @@ WHERE address1 LIKE '%azadi%';
 
 -- 6
 SELECT customer.firstname FROM customer INNER JOIN "order" ON (customer.id = "order".customerid)
-WHERE "order".id = 4;
+WHERE "order".id = 123;
 
 -- 7
 -- The function declaration is in functions.pgsql
