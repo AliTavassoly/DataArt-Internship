@@ -15,11 +15,11 @@ SELECT * FROM customer
 WHERE city = 'tehran';
 
 -- 5
-SELECT lastname FROM customer
+SELECT lastname AS "Last Name" FROM customer
 WHERE address1 LIKE '%azadi%';
 
 -- 6
-SELECT customer.firstname FROM customer INNER JOIN "order" ON (customer.id = "order".customerid)
+SELECT customer.firstname AS "First Name" FROM customer INNER JOIN "order" ON (customer.id = "order".customerid)
 WHERE "order".id = 123;
 
 -- 7
