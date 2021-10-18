@@ -34,4 +34,4 @@ SELECT customer_name as "Customer Name", customer_lastname as "Customer Lastname
     INNER JOIN customer AS customer1 ON customer1.Id = order1.customerid
     INNER JOIN product AS product1 ON productcode = product1.ID) as order_product_customer
     WHERE order_product_customer.total > 1000 
-        AND NOT EXISTS(SELECT customerID FROM payment WHERE paymentdate < '2019-01-01'::date);
+        AND NOT EXISTS(SELECT customerID FROM payment WHERE paymentdate < '2019-01-01');
