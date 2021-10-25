@@ -26,7 +26,7 @@
         }
         ]
     }
-// order schema:
+// order collection:
     {
         "_id": "6176b0fc0fb62c1aacc98705",
         "CustomerID": "6176b02f7e1979b4b9049b48",
@@ -44,7 +44,7 @@
         ]
     }
 
-// product schema:
+// product collection:
     {
         "_id": "6176b047413e8ba4490fd7c1",
         "ProductLineID": 1,
