@@ -1,0 +1,34 @@
+use ('data_art');
+// Query 1
+db.customer.find( {City: "yazd"} )
+
+// Query 2
+db.customer.find( { $or: [ {Address1 : { $regex : "azadi" } }, {Address2 : { $regex : "azadi" } } ] }, {_id: 0, Lastname: 1} );
+
+// Query 3
+db.order.aggregate([
+  {
+    $project: {
+      "customerid": {"$toObjectId": "$CustomerID"}
+    }
+  },
+  {
+    $lookup: {
+      from: 'customer',
+      localField: 'customerid',
+      foreignField: '_id',
+      as: 'customer_order'
+    }
+  },
+  {
+    $match: {
+      "_id": ObjectId('6176b0fc0fb62c1aacc98705') // OrderID = 123
+    }
+  },
+  {
+    $project: {
+      '_id': 0,
+      'customer_order.Firstname': 1
+    }
+  }
+])

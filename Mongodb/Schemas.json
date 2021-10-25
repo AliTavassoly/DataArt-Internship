@@ -1,0 +1,58 @@
+// customer collection:
+    {
+        "_id": "6176b02f7e1979b4b9049b48",
+        "salesRepEmployeeNum": 5,
+        "Name": "ali tavassoly",
+        "Lastname": "tavassoly",
+        "Firstname": "ali",
+        "Phone": "0913",
+        "Address1": "address1",
+        "Address2": "address2",
+        "City": "yazd",
+        "State": "yazd",
+        "PostalCode": 1234,
+        "Country": "iran",
+        "CreditLimit": 100000,
+        "Peyments": [
+        {
+            "CheckNum": "e13aa92141",
+            "PaymentDate": "2016-05-18T16:00:00Z",
+            "Amount": 15000
+        },
+        {
+            "CheckNum": "2141adf1341",
+            "PaymentDate": "2012-02-18T16:32:21Z",
+            "Amount": 15000
+        }
+        ]
+    }
+// order schema:
+    {
+        "_id": "6176b0fc0fb62c1aacc98705",
+        "CustomerID": "6176b02f7e1979b4b9049b48",
+        "OrderDate": "2016-05-18T16:00:00Z",
+        "ShippedDate": "2016-05-18T16:00:00Z",
+        "Status": 1,
+        "Comments": "No comments!",
+        "Products": [
+        {
+            "ProductCode": "6176b047413e8ba4490fd7c1",
+            "Name": "laptop",
+            "Quantity": 5,
+            "PriceEach": 1000
+        }
+        ]
+    }
+
+// product schema:
+    {
+        "_id": "6176b047413e8ba4490fd7c1",
+        "ProductLineID": 1,
+        "Name": "laptop",
+        "Scale": 5,
+        "Vendor": "vendor",
+        "PdtDescreption": "descript",
+        "QtyInStock": 100,
+        "BuyPrice": 15000,
+        "MSRP": "MSRP"
+    }    
