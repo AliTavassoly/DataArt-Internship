@@ -1,5 +1,5 @@
 # DataArt-Internship
-Hello,
+Hi,
 
 This is Ali Tavassoly.
 
