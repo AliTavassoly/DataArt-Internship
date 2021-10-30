@@ -1,4 +1,4 @@
 # DataArt-Internship
 Hello,
-This is Ali.
-This repository contains DataArt's tasks.
+This is Ali Tavassoly.
+The repository contains DataArt's tasks.
